@@ -23,5 +23,6 @@ class Student(Person): # subclase
 
 lucia = Person("Lucía", "Ramírez", 54)
 print(lucia)
+
 juan = Student("Juan", "López", 18, 2)
 print(juan)

@@ -15,3 +15,5 @@ ana = Person('Ana', 'Rodríguez', 33)  # creamos otro objeto
 # al método __str__ para imprimir el objeto
 print(pepe)
 print(ana)
+
+print(vars(pepe))
