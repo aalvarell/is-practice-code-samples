@@ -1,6 +1,8 @@
 from math import pi
+from abc import ABC, abstractmethod
 
-class Geometry(): 
+class Geometry(ABC):
+    @abstractmethod
     def get_area(self):
         pass 
 
